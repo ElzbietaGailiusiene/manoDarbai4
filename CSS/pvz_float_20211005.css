@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;    
+    background: rgba(219, 209, 209, 0.5);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.container1{
+    width: 100%;
+    margin:0;
+}
+img{
+  height: 300px;
+  float: left;
+  padding: 15px;
+}
+.box1{
+    padding: 30px 30px 50px 55px;
+}
+
+.container2{
+    width: 80%;
+    margin:10px;
+}
+.box2{
+    width:33.3%;
+    padding: 15px 35px;
+color: black;
+float: right;
+}

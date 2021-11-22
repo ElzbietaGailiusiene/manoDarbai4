@@ -1,0 +1,22 @@
+img{
+    width:40%
+
+}
+.container{
+    margin: 0 auto;
+    background: lightcoral;
+    width: 80%;
+}
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+f-left{
+    float: left;
+}
+f-clear{
+ clear: both;
+}
+

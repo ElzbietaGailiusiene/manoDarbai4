@@ -1,0 +1,32 @@
+
+*{
+box-sizing: border-box;
+}
+    .container {
+     border: 1px solid black;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;    }
+
+    .item {
+        border: 1px solid red;
+        flex-basis: 150px;
+        height: 250px;
+        text-align: center;
+        flex-grow: 1;
+      font-size: 7px;
+    
+    }
+
+    img{
+        width: 100px;
+    }
+    
+    input{
+    border-radius: 25px;
+    width: 90%;
+    appearance: bottom;
+    background-color: #877051;
+    position: center;
+    }

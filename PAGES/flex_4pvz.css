@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+}
+h2{
+    font-size: 16px;
+    padding: 10px;
+}
+h1{
+    font-size: 35px;
+    color:rgb(32, 95, 32)
+}
+h3, i{
+    color:yellowgreen;
+    padding: 0 0 5px 0;
+}
+
+
+/*header*/
+header{
+    /*border: 2px dashed red;*/
+    background-image: url(IMG/Mountains.jpg);
+    background-color:wheat;
+    color:wheat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-decoration: none;
+}
+a{
+    padding: 5px 15px;
+    color:whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+.clickme {
+    background-color: rgb(32, 95, 32);
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+.Container-Firstline {
+   /* border: 1px solid pink;*/
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 15px;
+    }
+/*main*/
+/*Section Intro-1*/
+
+.Intro-1, .Intro-2,.Intro-3,.Container-Contacts {
+/*border: 1px solid black;*/
+width: 100%;
+margin: 0 auto;
+}
+
+img {
+width: 180px;
+max-height: 100%;
+min-width: 100%;
+object-fit: cover;
+padding: 10px;
+  }
+.Container-Galery {
+    /*border: 1px solid green;*/
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    margin: 0 auto; 
+}
+
+   .photo-1, .photo-4{
+   /*border: 1px solid yellow;*/
+    flex-grow: 1;
+    flex-basis: 350px;
+    height: 250px;
+ 
+}
+   .photo-2, .photo-3{
+    /*border: 1px solid red;*/
+flex-grow: 2;
+flex-basis: 450px;
+height: 250px;
+    }
+.Intro-2,  .Container-Contacts{
+    background-color: #cdd8ea;
+    background-size: cover;
+}
+    .Container-Menu {
+       /* border: 1px solid pink;*/
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+         justify-content: space-around;   
+        }
+        .Menu-1{
+           /*border: 1px solid yellow;*/
+             flex-grow: 1;
+             flex-basis: 200px;
+             padding: 2px 35px;
+         }
+
+         .Container-Citata {
+            /*border: 1px solid red;*/
+               display: flex;
+               flex-direction: column;
+               flex-wrap: wrap;
+             justify-content: space-around;   
+            }    
+            .item{
+                /*border: 1px solid blueviolet;*/
+                width: 50%;
+                flex:start;
+                flex-basis: 50px;
+                padding: 1px;
+                margin: 0 auto;
+            }
+            /*footer*/
+     
+            .submit {
+                background:#0066A2;
+                color:white;
+                border-style:outset;
+                border-color:#0066A2;
+                height:50px;
+                width:100px;
+                font:bold15px arial,sans-serif;
+                text-shadow:none;
+           }         
+
+ .Bottom{
+                background: rgb(32, 95, 32); 
+                padding:15px 15px
+            }
+         footer input{
+                display: inline block;
+                border-radius: 25px;
+                appearance: bottom;
+                border: 1pz solid rgb(32, 95, 32);;
+                background-color: white;
+                padding: 8px 20px;
+                text-decoration:none;
+                font-weight:bold;
+                border-radius:5px;
+                cursor:pointer;
+         }
+         footer i{
+             padding-left: 15px;
+         }
+                

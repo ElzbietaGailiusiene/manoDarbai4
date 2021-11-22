@@ -1,0 +1,13 @@
+body{
+border: 10px solid red;
+}
+.container{
+    background-image: url(Autumn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.time-line{
+    background-color: rgba(175, 223, 175,0.5);
+    border: 10px solid royalblue;
+    padding-left: 30px;
+}
